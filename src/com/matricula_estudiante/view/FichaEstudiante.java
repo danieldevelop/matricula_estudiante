@@ -16,11 +16,11 @@ public class FichaEstudiante {
 		
 //		Datos personales del estudiante
 		System.out.println("----- Datos Personales -----");
-		System.out.println("Rut: " + run);
-		System.out.println(" | Nombre Estudiante: " + nombreEstudiante);
-		System.out.println("\nEdad: " + per.getEdad() + "años");
-		System.out.println((per.isEstadoCivil()) ? " | Estado civil: Casado" : " | Estado Civil: Soltero");
-		System.out.println((per.getSexo() == 'M') ? " | Sexo: MASCULINO" : " | Sexo: FEMENINO");
+		System.out.print("Rut: " + run);
+		System.out.print(" | Nombre Estudiante: " + nombreEstudiante);
+		System.out.print("\nEdad: " + per.getEdad() + " años");
+		System.out.print((per.isEstadoCivil()) ? " | Estado civil: Casado" : " | Estado Civil: Soltero");
+		System.out.print((per.getSexo() == 'M') ? " | Sexo: MASCULINO" : " | Sexo: FEMENINO");
 		
 //		Datos de la institucion
 		System.out.println("\n\n----- Datos de la Institucion ------");
